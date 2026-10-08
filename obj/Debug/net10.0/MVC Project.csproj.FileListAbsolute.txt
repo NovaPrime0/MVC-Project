@@ -1,0 +1,100 @@
+K:\Codez\C#\MVC Project\bin\Debug\net10.0\appsettings.Development.json
+K:\Codez\C#\MVC Project\bin\Debug\net10.0\appsettings.json
+K:\Codez\C#\MVC Project\bin\Debug\net10.0\MVC Project.staticwebassets.runtime.json
+K:\Codez\C#\MVC Project\bin\Debug\net10.0\MVC Project.staticwebassets.endpoints.json
+K:\Codez\C#\MVC Project\bin\Debug\net10.0\MVC Project.exe
+K:\Codez\C#\MVC Project\bin\Debug\net10.0\MVC Project.deps.json
+K:\Codez\C#\MVC Project\bin\Debug\net10.0\MVC Project.runtimeconfig.json
+K:\Codez\C#\MVC Project\bin\Debug\net10.0\MVC Project.dll
+K:\Codez\C#\MVC Project\bin\Debug\net10.0\MVC Project.pdb
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\rpswa.dswa.cache.json
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\MVC Project.GeneratedMSBuildEditorConfig.editorconfig
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\MVC Project.AssemblyInfoInputs.cache
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\MVC Project.AssemblyInfo.cs
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\MVC Project.csproj.CoreCompileInputs.cache
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\MVC Project.MvcApplicationPartsAssemblyInfo.cache
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\MVC Project.RazorAssemblyInfo.cache
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\MVC Project.RazorAssemblyInfo.cs
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\MVC Project.sourcelink.json
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\rjimswa.dswa.cache.json
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\scopedcss\bundle\MVC Project.styles.css
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\scopedcss\projectbundle\MVC Project.bundle.scp.css
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\xrodink0s3-{0}-61n19gt1b8-61n19gt1b8.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\wuiwmzz86f-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\6vhwj80xue-{0}-bqjiyaj88i-bqjiyaj88i.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\oglne313g2-{0}-c2jlpeoesf-c2jlpeoesf.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\gyh1zpn8su-{0}-erw9l3u2r3-erw9l3u2r3.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\9y9axj4osi-{0}-aexeepp0ev-aexeepp0ev.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\u5ycployl9-{0}-d7shbmvgxk-d7shbmvgxk.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\srvqs0aqh4-{0}-ausgxo2sd3-ausgxo2sd3.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\bq35hw83ir-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\ozln0d34wl-{0}-cosvhxvwiu-cosvhxvwiu.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\cuw24uvo3g-{0}-ub07r2b239-ub07r2b239.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\awwcjwdfrc-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\252m2tre8z-{0}-b7pk76d08c-b7pk76d08c.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\zbsxad8e1d-{0}-fsbi9cje9m-fsbi9cje9m.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\dwu9ndgcmz-{0}-rzd6atqjts-rzd6atqjts.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\u8oarye8gl-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\5ui8fyx50z-{0}-dxx9fxp4il-dxx9fxp4il.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\4f557c5byr-{0}-jd9uben2k1-jd9uben2k1.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\otjuehrh11-{0}-khv3u5hwcm-khv3u5hwcm.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\cskswjf0wu-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\2bxylmk1uq-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\zpqr1cxga8-{0}-c2oey78nd0-c2oey78nd0.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\1t7nodlri5-{0}-tdbxkamptv-tdbxkamptv.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\ifa3fu10bb-{0}-j5mq2jizvt-j5mq2jizvt.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\y3nefr6nln-{0}-06098lyss8-06098lyss8.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\2uubntyarj-{0}-nvvlpmu67g-nvvlpmu67g.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\isztx7ja1h-{0}-s35ty4nyc5-s35ty4nyc5.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\k85r5k8zd6-{0}-pj5nd1wqec-pj5nd1wqec.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\t44ztysh40-{0}-46ein0sx1k-46ein0sx1k.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\0dfrkmp8vs-{0}-v0zj4ognzu-v0zj4ognzu.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\boa9ngf1gu-{0}-37tfw0ft22-37tfw0ft22.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\8xy9xsp4nx-{0}-hrwsygsryq-hrwsygsryq.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\avh6udx8l1-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\u2e4djv8am-{0}-ft3s53vfgj-ft3s53vfgj.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\8ivmxrt7g5-{0}-6cfz1n2cew-6cfz1n2cew.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\vcvx6wsu0n-{0}-6pdc2jztkx-6pdc2jztkx.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\smdzi8yev8-{0}-493y06b0oq-493y06b0oq.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\jrbnxfuvqb-{0}-iovd86k7lj-iovd86k7lj.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\hh5b79196o-{0}-vr1egmr9el-vr1egmr9el.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\fyf2abk3vu-{0}-kbrnm935zg-kbrnm935zg.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\eaudqusffi-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\bnt0fzrt3i-{0}-y7v9cxd14o-y7v9cxd14o.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\wanvo4ud9s-{0}-notf2xhcfb-notf2xhcfb.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\xhcdjhctfv-{0}-h1s4sie4z3-h1s4sie4z3.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\3cjyumo0c7-{0}-63fj8s7r0e-63fj8s7r0e.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\klqnnbe9tj-{0}-0j3bgjxly4-0j3bgjxly4.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\3n6tp2yzlj-{0}-47otxtyo56-47otxtyo56.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\vvx8zhbb9j-{0}-4v8eqarkd7-4v8eqarkd7.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\tfy2cm4wh8-{0}-356vix0kms-356vix0kms.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\mm3w9oe60b-{0}-83jwlth58m-83jwlth58m.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\00uafr6v6b-{0}-mrlpezrjn3-mrlpezrjn3.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\9h61n5s7sg-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\kgp465tpct-{0}-ag7o75518u-ag7o75518u.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\tnsqlehgfg-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\a4ormz9gyf-{0}-0i3buxo5is-0i3buxo5is.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\hr07hmdvum-{0}-o1o13a6vjx-o1o13a6vjx.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\kjsltya7fv-{0}-ttgo8qnofa-ttgo8qnofa.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\eyde5dfxqi-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\x31dbhi2tk-{0}-muycvpuwrr-muycvpuwrr.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\hb8ebhoo8g-{0}-87fc7y1x7t-87fc7y1x7t.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\7kp4uh5qtv-{0}-mlv21k5csn-mlv21k5csn.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\staticwebassets.build.json
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\staticwebassets.build.json.cache
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\staticwebassets.development.json
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\swae.build.ex.cache
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\MVC Project.dll
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\refint\MVC Project.dll
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\MVC Project.pdb
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\MVC Project.genruntimeconfig.cache
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\ref\MVC Project.dll
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\pf7xpwgcww-{0}-s30pjry8s5-s30pjry8s5.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\scopedcss\Views\Portfolio\PortfolioView.cshtml.rz.scp.css
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\giubbrdkm2-{0}-2v9vt2w50j-2v9vt2w50j.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\sw6ckzhysd-{0}-2zfjj20ifd-2zfjj20ifd.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\pmsy0bj48g-{0}-2zfjj20ifd-2zfjj20ifd.gz

@@ -1,0 +1,82 @@
+@model MVC_Project.Models.PortfolioModel
+@{
+    var projectData = ViewData[index: "projectDesc"] as List<(string title, string thumbnail, string text)>;
+}  
+@section Specialbg{
+    <style>
+        body{
+            background-color: var(--background);
+            overflow-x: hidden;
+        }
+    </style>
+}
+@* very empty for now just for layout *@
+<section id="hero">
+    <img src="~/assets/Images/yumenapfp.jpg" alt="">
+    <div> 
+        <h1>
+            I'm @Model.Name
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptas in totam consequuntur dicta quia debitis neque porro illum, deleniti earum, ex enim at consectetur tempora! Modi fuga aliquam aut!</p>
+        <a href="#project">
+            View My Projects ==>
+            </a>
+    </div>
+</section>
+
+<section id="about-contacts">
+    <section id="about">
+        <div class="text-wrap">
+            <h1>About me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, illo! Nemo, obcaecati expedita? Facere labore eum ad eligendi provident eaque obcaecati quisquam. Commodi aspernatur fuga voluptatem explicabo consectetur ratione inventore.</p>
+        </div>
+    </section>
+    <section id="contacts">
+        <div id="contacts-container">
+            <ul>
+                @foreach (Socials sc in @Model.socialsList){
+                    switch (sc.Platform){
+                        case "Facebook":
+                            <li>
+                                <a href= @sc.Link>
+                                    <img src="~/assets/Icons/facebook.png" alt=""><h2>John Mark Yumena</h2>
+                                </a>
+                            </li>
+                            break;
+                        case "Github":
+                            <li>
+                                <a href= @sc.Link>
+                                    <img src="~/assets/Icons/github.png" alt=""><h2>NovaPrime0</h2>
+                                </a>
+                            </li>
+                            break;
+                        case "Gmail":
+                            <li>
+                                <a href= @sc.Link>
+                                    <img src="~/assets/Icons/gmail.png" alt="" /><h2>@sc.Link</h2>
+                                </a>
+                            </li>
+                            break;
+                    }
+                }
+            </ul>
+        </div>
+    </section>
+</section>
+
+<section id="project">
+    <h1>Projects I've Contributed To</h1>
+    <ul>
+        @for(int i = 0; i < @Model.projectLinks.Count; i++)
+        {
+            <li class="project-card">
+                <div class="card-top"></div>
+                <img src="~/assets/Images/@projectData[i].thumbnail" alt="">
+                <h3> @projectData[i].title</h3>
+                <p>@projectData[i].text</p>
+                <a href=@Model.projectLinks[i]>View on github →</a>
+                <div class="card-bottom"></div>
+            </li>
+        }
+    </ul>
+</section>
