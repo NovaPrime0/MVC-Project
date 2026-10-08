@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Directory - @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <div class="brand-section">
+                <div class="brand-dot"></div>
+                BSCS 3-5 <span style="color: var(--text-secondary); font-weight: 400;">/ DIRECTORY</span>
+            </div>
+            <nav>
+                <a href="/" class="nav-link">Directory</a>
+            </nav>
+        </header>
+
+        <main role="main">
+            @RenderBody()
+        </main>
+
+        <footer class="site-footer">
+            <div>BSCS 3-5 - Directory</div>
+            <div>PERSONAL PORTFOLIOS / 03 PROFILES</div>
+        </footer>
+    </div>
+</body>
+</html>

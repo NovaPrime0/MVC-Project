@@ -1,0 +1,47 @@
+@model DirectoryPortfolio.Models.DirectoryViewModel
+
+@{
+    ViewData["Title"] = "Directory";
+}
+
+<section class="directory-header">
+    <div class="breadcrumb">PERSONAL PORTFOLIOS Directories</div>
+    <h1>Directory</h1>
+    
+    <div class="meta-grid">
+        <div>
+            <span class="meta-label">SUBJECT</span>
+            <div class="meta-value">@Model.Subject</div>
+        </div>
+        <div>
+            <span class="meta-label">PROFESSOR</span>
+            <div class="meta-value">@Model.Professor</div>
+        </div>
+        <div>
+            <span class="meta-label">SECTION</span>
+            <div class="meta-value">@Model.Section</div>
+        </div>
+    </div>
+</section>
+
+<section class="profiles-section">
+    <div class="section-title">PROFILES</div>
+    
+    <div class="profiles-grid">
+        @foreach (var profile in Model.Profiles)
+        {
+            <div class="profile-card">
+                
+            <img src="@profile.PhotoUrl" alt="@profile.Name" style="width: 100%; height: 250px; object-fit: cover; 
+            border-radius: 8px; margin-bottom: 1.5rem;" />
+                
+                <h2 class="student-name">@profile.Name</h2>
+                
+                <div class="profile-link-row">
+                    <a href="@profile.ProfileUrl" class="view-profile">View profile</a>
+                    <span class="link-arrow">&nearr;</span>
+                </div>
+            </div>
+        }
+    </div>
+</section>
