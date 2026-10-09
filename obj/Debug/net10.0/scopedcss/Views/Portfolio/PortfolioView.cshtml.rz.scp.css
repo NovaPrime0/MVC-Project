@@ -26,7 +26,7 @@ li[b-suweya27ha]{
 }
 
 /* GENSTYLES */
-p[b-suweya27ha]{
+p[b-suweya27ha], li[b-suweya27ha]{
     color: var(--font-text);
     font-family: Monserrat;
     margin: 0;
@@ -102,34 +102,31 @@ section[b-suweya27ha]{
 
 /* ABOUT-CONTACTS content group */
 #about-contacts[b-suweya27ha]{
+    position: relative;
     flex-direction: row;
-    margin-left: -50%;
-    width: 200%;
+    justify-content: start;
     .text-wrap{
         width: 40rem;
     }
     section[b-suweya27ha]{
         max-height: 70%;
-        width: 200%;
         padding: 2rem;
     }
 }
 
 /* ABOUT */
 #about[b-suweya27ha]{
-    padding-left: 20% !important;
+    width:70%;
     .text-wrap{
-        h1{
-            animation-name: appear-b-suweya27ha;
-            animation-fill-mode: forwards;
-            animation-timeline: view();
-            animation-range: entry 0% cover 40%;
-        }
-        p[b-suweya27ha]{
+        width: inherit;
+        > *{
             animation-fill-mode: both;
             animation-name: appear-b-suweya27ha;
             animation-timeline: view();
             animation-range: entry 0% cover 40%;
+        }
+        ul[b-suweya27ha]{ 
+            text-indent:1rem;   
         }
     }
 }
@@ -159,6 +156,9 @@ section[b-suweya27ha]{
     animation-name: appearleft-b-suweya27ha, appearleft-b-suweya27ha;
     animation-direction: normal, reverse;
     animation-range: entry 0% cover 40%, exit 0% exit 100%;
+    position: absolute;
+    width: 50%;
+    right: 0%;
     animation-timeline: view(), view();
     animation-fill-mode: both, forwards;
     #contacts-container{
@@ -180,6 +180,7 @@ section[b-suweya27ha]{
                 animation-timeline: view();
                 animation-fill-mode: both;
                 a{
+                    width: inherit;
                     display: flex;
                     flex-direction: row;
                     gap: 1rem;
@@ -187,11 +188,14 @@ section[b-suweya27ha]{
                     h2{
                         margin-top: auto;
                         margin-bottom: auto;
+                        overflow-wrap: anywhere;
                     }
                 }
                 img[b-suweya27ha]{
-                    height: 36px;
-                    width: 36px;
+                    object-fit: contain;
+                    height: 1.5rem;
+                    width: 1.5rem;
+                    flex-shrink: 0;
                 }
                 
             }
@@ -201,12 +205,10 @@ section[b-suweya27ha]{
 
 /* PROJECTS */
 #project[b-suweya27ha]{
-    align-content: center;
-    justify-content: start;
     animation-name: appearbelow-b-suweya27ha;
     animation-timeline: view();
     animation-range: entry 0% entry 30%;
-
+    
     h1{
         text-align: center;
     }
@@ -249,6 +251,7 @@ section[b-suweya27ha]{
     } */
 
     h3{
+        height: 2em;
         padding: 0.5rem
     }
 
@@ -278,5 +281,19 @@ section[b-suweya27ha]{
     }
     a:hover[b-suweya27ha] { 
         filter: brightness(1.08); 
+    }
+}
+@media screen and (max-width: 780px) {
+    #hero[b-suweya27ha]{
+        flex-direction: column;
+    }
+    #about-contacts[b-suweya27ha]{
+        > *{
+            width: 100%;
+        }
+        flex-direction: column;[b-suweya27ha]
+    }
+    #contacts[b-suweya27ha]{
+        position: inherit;
     }
 }

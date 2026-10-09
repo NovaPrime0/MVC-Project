@@ -96,5 +96,5 @@ K:\Codez\C#\MVC Project\obj\Debug\net10.0\ref\MVC Project.dll
 K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\pf7xpwgcww-{0}-s30pjry8s5-s30pjry8s5.gz
 K:\Codez\C#\MVC Project\obj\Debug\net10.0\scopedcss\Views\Portfolio\PortfolioView.cshtml.rz.scp.css
 K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\giubbrdkm2-{0}-2v9vt2w50j-2v9vt2w50j.gz
-K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\sw6ckzhysd-{0}-2zfjj20ifd-2zfjj20ifd.gz
-K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\pmsy0bj48g-{0}-2zfjj20ifd-2zfjj20ifd.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\sw6ckzhysd-{0}-8bdp76irpo-8bdp76irpo.gz
+K:\Codez\C#\MVC Project\obj\Debug\net10.0\compressed\pmsy0bj48g-{0}-8bdp76irpo-8bdp76irpo.gz

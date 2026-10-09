@@ -26,7 +26,7 @@ li{
 }
 
 /* GENSTYLES */
-p{
+p, li{
     color: var(--font-text);
     font-family: Monserrat;
     margin: 0;
@@ -102,34 +102,31 @@ section{
 
 /* ABOUT-CONTACTS content group */
 #about-contacts{
+    position: relative;
     flex-direction: row;
-    margin-left: -50%;
-    width: 200%;
+    justify-content: start;
     .text-wrap{
         width: 40rem;
     }
     section{
         max-height: 70%;
-        width: 200%;
         padding: 2rem;
     }
 }
 
 /* ABOUT */
 #about{
-    padding-left: 20% !important;
+    width:70%;
     .text-wrap{
-        h1{
-            animation-name: appear;
-            animation-fill-mode: forwards;
-            animation-timeline: view();
-            animation-range: entry 0% cover 40%;
-        }
-        p{
+        width: inherit;
+        > *{
             animation-fill-mode: both;
             animation-name: appear;
             animation-timeline: view();
             animation-range: entry 0% cover 40%;
+        }
+        ul{ 
+            text-indent:1rem;   
         }
     }
 }
@@ -159,6 +156,9 @@ section{
     animation-name: appearleft, appearleft;
     animation-direction: normal, reverse;
     animation-range: entry 0% cover 40%, exit 0% exit 100%;
+    position: absolute;
+    width: 50%;
+    right: 0%;
     animation-timeline: view(), view();
     animation-fill-mode: both, forwards;
     #contacts-container{
@@ -180,6 +180,7 @@ section{
                 animation-timeline: view();
                 animation-fill-mode: both;
                 a{
+                    width: inherit;
                     display: flex;
                     flex-direction: row;
                     gap: 1rem;
@@ -187,11 +188,14 @@ section{
                     h2{
                         margin-top: auto;
                         margin-bottom: auto;
+                        overflow-wrap: anywhere;
                     }
                 }
                 img{
-                    height: 36px;
-                    width: 36px;
+                    object-fit: contain;
+                    height: 1.5rem;
+                    width: 1.5rem;
+                    flex-shrink: 0;
                 }
                 
             }
@@ -201,12 +205,10 @@ section{
 
 /* PROJECTS */
 #project{
-    align-content: center;
-    justify-content: start;
     animation-name: appearbelow;
     animation-timeline: view();
     animation-range: entry 0% entry 30%;
-
+    
     h1{
         text-align: center;
     }
@@ -249,6 +251,7 @@ section{
     } */
 
     h3{
+        height: 2em;
         padding: 0.5rem
     }
 
@@ -278,5 +281,19 @@ section{
     }
     a:hover { 
         filter: brightness(1.08); 
+    }
+}
+@media screen and (max-width: 780px) {
+    #hero{
+        flex-direction: column;
+    }
+    #about-contacts{
+        > *{
+            width: 100%;
+        }
+        flex-direction: column;
+    }
+    #contacts{
+        position: inherit;
     }
 }
