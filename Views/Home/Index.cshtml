@@ -1,0 +1,208 @@
+@model MyMVCPortfolio.Models.PortfolioViewModel
+
+@{
+    ViewData["Title"] = "Portfolio";
+}
+
+<!-- main section -->
+<section class="my-section">
+    <div class="my-content">
+        <div class="text-small" style="margin-bottom: 2rem;">PERSONAL PORTFOLIO / 2026</div>
+        <h1>@Model.Name</h1>
+        <div class="my-subtitle">@Model.Tagline</div>
+        <p class="my-intro">@Model.IntroText</p>
+        
+        <div class="my-actions">
+            <a href="#about" class="btn-primary">Get to know me <span>&darr;</span></a>
+        </div>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; border-top: 1px solid var(--border-color); padding-top: 1rem;">
+            <div style="display: flex; gap: 1.5rem;">
+                <a href="https://github.com/vboi19" style="display: flex; align-items: center; gap: 0.5rem;">
+                    <img src="~/images/github.png" alt="GitHub" style="width: 20px; height: 20px; filter: invert(1);" /> GitHub &nearr;
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61587739397354" style="display: flex; align-items: center; gap: 0.5rem;">
+                    <img src="~/images/facebook.png" alt="Facebook" style="width: 20px; height: 20px;" /> Facebook &nearr;
+                </a>
+            </div>
+            <div class="text-small">SCROLL TO DISCOVER MORE ABOUT ME &darr;</div>
+        </div>
+    </div>
+    
+    <div class="my-visual">
+        <div style="text-align: right; color: #ff4444; font-size: 0.75rem; margin-bottom: 2rem; font-family: monospace;">● DO NOT DISTURB</div>
+        <div class="photo-container">
+            <img src="~/images/IMG_5373 e SC (2).jpg" alt="Veevhoi Poblete" style="width: 100%; max-width: 400px; border-radius: 12px; object-fit: cover; display: block; margin-left: auto;" />
+        </div>
+        
+        <div class="my-meta" style="margin-top: 2rem;">
+            <div class="meta-item">
+                <span class="meta-label">BASED IN</span>
+                @Model.Location
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">FOCUS</span>
+                @Model.Focus
+            </div>
+            <div class="meta-item" style="grid-column: span 2;">
+                <span class="meta-label">CURRENTLY</span>
+                @Model.CurrentStatus
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- about me -->
+<section id="about" class="section-wrapper">
+    <div class="section-sidebar">
+        <div class="section-number">01 / ABOUT</div>
+    </div>
+    <div class="section-main">
+        <h2>A little about me, beyond the code.</h2>
+        <div style="width: 50px; height: 2px; background-color: var(--accent-color); margin-bottom: 2rem;"></div>
+        
+        <div class="about-grid">
+            <div class="about-text">
+                <p>@Model.About.Description</p>
+            </div>
+            <div>
+                <span class="meta-label">OUTSIDE OF WORK</span>
+                <p class="text-secondary" style="font-size: 0.95rem;">@Model.About.OutsideOfWork</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- skills list -->
+<section id="skills" class="section-wrapper">
+    <div class="section-sidebar">
+        <div class="section-number">02 / SKILLS & TOOLS</div>
+    </div>
+    <div class="section-main">
+        <h2>My Tech Stack.</h2>
+        <div style="width: 50px; height: 2px; background-color: var(--accent-color); margin-bottom: 3rem;"></div>
+        
+        <div class="toolkit-grid">
+            <div class="tool-category">
+                <h3>01 / LANGUAGES</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>C</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="tool-category">
+                <h3>02 / FRAMEWORKS / DATABASE</h3>
+                <ul>
+                    <li>Vue.js</li>
+                    <li>MySQL</li>
+                    <li>Flutter</li>
+                </ul>
+            </div>
+            <div class="tool-category">
+                <h3>03 / TOOLS & PLATFORMS</h3>
+                <ul>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- my projects -->
+<section id="projects" class="section-wrapper">
+    <div class="section-sidebar">
+        <div class="section-number">03 / PROJECTS</div>
+    </div>
+    <div class="section-main">
+        <h2 style="font-size: 2.5rem; font-weight: 600; margin-bottom: 1rem;">@Model.Projects.Title</h2>
+        <div style="width: 50px; height: 3px; background-color: var(--accent-color); margin-bottom: 3rem;"></div>
+        
+        <div class="projects-list">
+            <div class="project-item" style="margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 500; margin-bottom: 0.25rem;">ReStok</h3>
+                <div class="project-role" style="color: var(--accent-color); font-size: 0.85rem; font-family: monospace; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem;">FRONT END DEVELOPER & QUALITY ASSURANCE</div>
+                
+                <p class="text-secondary" style="margin-bottom: 1rem;">Restocking recommendation app for Filipino sari-sari store owners, built with Flutter</p>
+                <p class="text-secondary" style="margin-bottom: 1rem;">Uses a fractional knapsack algorithm to pick which items to restock within a limited budget, maximizing expected value</p>
+                
+                <ul class="project-bullets" style="list-style: none; padding-left: 0; margin-top: 1rem;">
+                    <li style="position: relative; padding-left: 1.25rem; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                        <span style="position: absolute; left: 0; top: 0.4rem; width: 4px; height: 4px; background-color: var(--accent-color); border-radius: 50%;"></span>
+                        Built the front end that takes store inputs and displays the recommendations
+                    </li>
+                    <li style="position: relative; padding-left: 1.25rem; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                        <span style="position: absolute; left: 0; top: 0.4rem; width: 4px; height: 4px; background-color: var(--accent-color); border-radius: 50%;"></span>
+                        Created the UI/UX using Figma for the overall app and the log in screen, and onboarding screens
+                    </li>
+                    <li style="position: relative; padding-left: 1.25rem; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                        <span style="position: absolute; left: 0; top: 0.4rem; width: 4px; height: 4px; background-color: var(--accent-color); border-radius: 50%;"></span>
+                        Tested the algorithm outputs, edge cases, and app flow, and wrote the user manual
+                    </li>
+                </ul>
+            </div>
+
+            <div class="project-item" style="margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 500; margin-bottom: 0.25rem;">ELDERFILE</h3>
+                <div class="project-role" style="color: var(--accent-color); font-size: 0.85rem; font-family: monospace; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem;">FRONT END DEVELOPER & API SETUP</div>
+                
+                <p class="text-secondary" style="margin-bottom: 1rem;">Senior citizen registration and profiling system</p>
+                
+                <ul class="project-bullets" style="list-style: none; padding-left: 0; margin-top: 1rem;">
+                    <li style="position: relative; padding-left: 1.25rem; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                        <span style="position: absolute; left: 0; top: 0.4rem; width: 4px; height: 4px; background-color: var(--accent-color); border-radius: 50%;"></span>
+                        Built the front end in Vue.js + TypeScript: registration forms, privacy consent popup, success screen, and admin panel
+                    </li>
+                    <li style="position: relative; padding-left: 1.25rem; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                        <span style="position: absolute; left: 0; top: 0.4rem; width: 4px; height: 4px; background-color: var(--accent-color); border-radius: 50%;"></span>
+                        Set up the API connecting the UI to the MySQL database (senior, family, and specialization profiles)
+                    </li>
+                    <li style="position: relative; padding-left: 1.25rem; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                        <span style="position: absolute; left: 0; top: 0.4rem; width: 4px; height: 4px; background-color: var(--accent-color); border-radius: 50%;"></span>
+                        Focused on a simple, accessible interface for encoding senior citizen records
+                    </li>
+                </ul>
+            </div>
+
+            <div class="project-item" style="margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 500; margin-bottom: 0.25rem;">Matrix Diagonalizer</h3>
+                <div class="project-role" style="color: var(--accent-color); font-size: 0.85rem; font-family: monospace; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem;">FRONT END DEVELOPER</div>
+                
+                <p class="text-secondary" style="margin-bottom: 1rem;">Tool that diagonalizes matrices (eigenvalues, eigenvectors, and the P and D matrices)</p>
+                
+                <ul class="project-bullets" style="list-style: none; padding-left: 0; margin-top: 1rem;">
+                    <li style="position: relative; padding-left: 1.25rem; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                        <span style="position: absolute; left: 0; top: 0.4rem; width: 4px; height: 4px; background-color: var(--accent-color); border-radius: 50%;"></span>
+                        Built the front end such as matrix size and entry input, result display, and a clean layout for the step-by-step output
+                    </li>
+                    <li style="position: relative; padding-left: 1.25rem; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                        <span style="position: absolute; left: 0; top: 0.4rem; width: 4px; height: 4px; background-color: var(--accent-color); border-radius: 50%;"></span>
+                        Worked with the backend logic to present the computations clearly to the user
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="education" class="section-wrapper">
+    <div class="section-sidebar">
+        <div class="section-number">04 / EDUCATION</div>
+    </div>
+    <div class="section-main">
+        <h2>Tech Education. </h2>
+        
+        <div class="education-item mt-4">
+            <div>
+                <div class="education-degree">@Model.Education.Degree</div>
+                <div class="text-secondary">@Model.Education.Institution</div>
+            </div>
+            <div class="text-secondary text-small">
+                @Model.Education.Years
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
